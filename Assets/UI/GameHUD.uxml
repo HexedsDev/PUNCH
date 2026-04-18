@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="root" style="flex-grow: 1; background-color: rgba(0,0,0,0);">
+        <ui:VisualElement name="top-bar" style="flex-direction: row; justify-content: space-between; padding: 10px; background-color: rgba(0,0,0,0.5);">
+            <ui:Label name="LivesLabel" text="Lives: ♥ ♥ ♥" style="color: red; font-size: 22px; -unity-font-style: bold;" />
+            <ui:Label name="WaveLabel" text="Wave 1" style="color: white; font-size: 18px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="bottom-bar" style="position: absolute; bottom: 0; left: 0; right: 0; padding: 10px; background-color: rgba(0,0,0,0.5); flex-direction: row; align-items: center;">
+            <ui:Label name="ScoreLabel" text="Score: 0" style="color: yellow; font-size: 22px; -unity-font-style: bold;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
